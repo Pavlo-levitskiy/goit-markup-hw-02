@@ -1,3 +1,25 @@
-button {
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: #212121;
+}
+.box {
+  background-color: #f5f4fa;
   cursor: pointer;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 2.6em;
+}
+.box:hover,
+.box:focus {
+  background-color: #2196f3;
+  color: #f5f4fa;
+}
+.link {
+  color: #212121;
+}
+.link:hover,
+.link:focus {
+  color: #2196f3;
 }
