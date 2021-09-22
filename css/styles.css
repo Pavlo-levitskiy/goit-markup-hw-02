@@ -1,25 +1,41 @@
+:root {
+  --blue: #2196f3;
+  --grey: #757575;
+}
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: #212121;
 }
-.box {
+button {
   background-color: #f5f4fa;
   cursor: pointer;
   border: none;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 2.6em;
+  line-height: 1.625em;
 }
-.box:hover,
-.box:focus {
-  background-color: #2196f3;
-  color: #f5f4fa;
+button:hover,
+button:focus {
+  background-color: var(--blue);
+  color: #ffffff;
 }
-.link {
-  color: #212121;
+a:hover,
+a:focus {
+  color: var(--blue);
 }
-.link:hover,
-.link:focus {
-  color: #2196f3;
+.contacts {
+  color: var(--grey);
+}
+p {
+  color: var(--grey);
+  font-size: 16px;
+  line-height: 1.875em;
+}
+h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2em;
+}
+ul {
+  list-style-type: none;
 }
