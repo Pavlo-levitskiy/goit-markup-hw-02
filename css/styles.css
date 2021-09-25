@@ -47,6 +47,14 @@ body {
   color: var(--blue);
 }
 
+.hero-title {
+  background: #ffffff;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36em;
+}
+
 .button {
   background-color: #f5f4fa;
 
@@ -61,7 +69,27 @@ body {
   background-color: var(--blue);
   color: #ffffff;
 }
-.section .section-title {
+
+.button-hero:hover,
+.button-hero:focus {
+  background-color: var(--blue);
+  color: #ffffff;
+}
+.button-hero {
+  border: none;
+  font-size: 16px;
+  line-height: 1.875em;
+}
+.section-subtitle {
+  font-size: 14px;
+  line-height: 1.14em;
+}
+
+.section-photo {
+  font-size: 36px;
+  line-height: 1.16em;
+}
+.section-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2em;
@@ -77,4 +105,19 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+}
+.desc {
+  color: var(--grey);
+  font-size: 14px;
+  line-height: 1.71em;
+}
+.photo {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18em;
+}
+.profession {
+  color: var(--grey);
+  font-size: 16px;
+  line-height: 1.18em;
 }
