@@ -7,8 +7,15 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--primery-text-color);
 }
+.colortext {
+  color: var(--blue);
+}
 
 .logo {
+  text-transform: capitalize;
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19em;
   color: var(--primery-text-color);
   text-decoration: none;
 }
@@ -41,6 +48,7 @@ body {
   font-size: 14px;
   line-height: 1.1em;
   text-decoration: none;
+  font-style: normal;
 }
 .contacts:hover,
 .contacts:focus {
@@ -106,18 +114,47 @@ body {
   font-size: 14px;
   line-height: 1.71;
 }
+
 .desc {
   color: var(--grey);
   font-size: 14px;
   line-height: 1.71em;
 }
+
 .photo {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18em;
 }
+
 .profession {
   color: var(--grey);
   font-size: 16px;
   line-height: 1.18em;
+}
+
+.logo-footer {
+  color: #ffffff;
+  text-transform: capitalize;
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19em;
+  text-decoration: none;
+}
+.logo-footer:hover,
+.logo-footer:focus {
+  color: var(--blue);
+}
+
+.address-footer {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.container {
+  width: 1200px;
+  background-color: #2f303a;
 }
