@@ -18,23 +18,21 @@ body {
   line-height: 1.19em;
   color: var(--primery-text-color);
   text-decoration: none;
-}
-.logo:focus,
-.logo:hover {
-  color: var(--blue);
+  letter-spacing: 0.03em;
 }
 
 .site-nav .link {
   color: var(--primery-text-color);
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.02em;
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--blue);
-
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1;
 }
 
 .list {
@@ -43,34 +41,40 @@ body {
 
 .contacts {
   color: var(--grey);
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1em;
   text-decoration: none;
   font-style: normal;
+  letter-spacing: 0.02em;
 }
 .contacts:hover,
 .contacts:focus {
   color: var(--blue);
 }
 
-.hero-title {
-  background: #ffffff;
+.hero {
+  background-color: #2f303a;
+}
 
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36em;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 .button {
   background-color: #f5f4fa;
-
   cursor: pointer;
   border: none;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6em;
+  letter-spacing: 0.03em;
 }
 .button:hover,
 .button:focus {
@@ -78,25 +82,31 @@ body {
   color: #ffffff;
 }
 
-.button-hero:hover,
-.button-hero:focus {
+.button-hero {
   background-color: var(--blue);
   color: #ffffff;
-}
-.button-hero {
   border: none;
+  cursor: pointer;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.875em;
+  letter-spacing: 0.06em;
 }
 .section-subtitle {
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .section-photo {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16em;
+  letter-spacing: 0.03em;
 }
+
 .section-title {
   font-weight: 700;
   font-size: 18px;
@@ -125,12 +135,14 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18em;
+  letter-spacing: 0.03em;
 }
 
 .profession {
   color: var(--grey);
   font-size: 16px;
   line-height: 1.18em;
+  letter-spacing: 0.03em;
 }
 
 .logo-footer {
@@ -140,21 +152,18 @@ body {
   font-size: 26px;
   line-height: 1.19em;
   text-decoration: none;
-}
-.logo-footer:hover,
-.logo-footer:focus {
-  color: var(--blue);
+  letter-spacing: 0.03em;
 }
 
 .address-footer {
   color: #ffffff;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
-.container {
+.footer {
   width: 1200px;
   background-color: #2f303a;
 }
