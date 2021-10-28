@@ -99,10 +99,9 @@ body {
 }
 
 .hidden-title {
-  margin: 0;
-  opacity: 0;
-  pointer-events: none;
+  display: none;
 }
+
 .section-subtitle {
   font-weight: 700;
   font-size: 14px;
